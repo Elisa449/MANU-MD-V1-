@@ -1,2 +1,46 @@
-# MANU-MD-V1-
-⚙️ 𝙸𝙽𝙲𝙾𝙽𝙽𝚄-𝚇𝙳 𝚅𝟸 — 𝚈𝙾𝚄𝚁 𝙰𝙻𝙻-𝙸𝙽-𝙾𝙽𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃 💥  ✨ 𝙸𝙽𝙲𝙾𝙽𝙽𝚄-𝚇𝙳 𝚅𝟸 𝙸𝚂  𝙼𝙾𝚁𝙴 𝚃𝙷𝙰𝙽 𝙰 𝙱𝙾𝚃 — 𝙸𝚃’𝚂 𝚈𝙾𝚄𝚁 𝚄𝙻𝚃𝙸𝙼𝙰𝚃𝙴 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙲𝙾𝙼𝙿𝙰𝙽𝙸𝙾𝙽. 𝙱𝚄𝙸𝙻𝚃 𝙵𝙾𝚁 𝙿𝙾𝚆𝙴𝚁, 𝚂𝚃𝚈𝙻𝙴 𝙰𝙽𝙳 𝚂𝙿𝙴𝙴𝙳  — 𝙿𝙴𝚁𝙵𝙴𝙲𝚃 𝙵𝙾𝚁  𝙶𝚁𝙾𝚄𝙿, 𝙵𝚁𝙸𝙴𝙽𝙳𝚂  𝙰𝙽𝙳 𝙰𝙳𝙼𝙸𝙽
+# KAVI MD MULTIDEVICE NORMAL WHATSAPP BOT 🍃
+<div align="center">
+
+ [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=64F75B&width=435&lines=%EF%BC%AB%EF%BC%A1%EF%BC%B6%EF%BC%A9+-+%EF%BC%AD%EF%BC%A4;%EF%BC%A2%EF%BC%B9+%EF%BC%AB%EF%BC%A1%EF%BC%B6%EF%BC%A9%EF%BC%A4%EF%BC%B5+%EF%BC%B2%EF%BC%A1%EF%BC%B3%EF%BC%A1%EF%BC%AE%EF%BC%A7%EF%BC%A1)](https://git.io/typing-svg)
+
+
+
+ <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+
+
+# WORKFLOW CODE 👨‍💻
+```
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
+
